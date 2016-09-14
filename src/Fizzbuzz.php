@@ -2,8 +2,8 @@
 namespace App;
 class Fizzbuzz
 {
-    public function addition($a, $b)
+    public function calc($num)
     {
-        return $a + $b;
+        return $num;
     }
 }
