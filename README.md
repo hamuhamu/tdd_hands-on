@@ -6,3 +6,9 @@ TDDハンズオンの資料
 ```sh
 $ make setup
 ```
+
+## テスト
+
+```sh
+$ make test
+```
