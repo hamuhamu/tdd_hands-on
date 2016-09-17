@@ -37,7 +37,9 @@ vagrant@debian:$ make setup
 $ make test
 ```
 
-[実行結果](img.png)
+テストを実行して以下の出力になれば準備完了です。  
+
+![実行結果](img.png)
 
 ## お題
 
