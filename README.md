@@ -5,7 +5,6 @@ TDDハンズオンの資料
 
 以下の環境を用意してください。  
 * PHP 5.6 >=
-* PHPUnit 5.5
 
 https://phpunit.de/  
 PHPUnit 5.5を使用しますので、PHP5.6以上  
