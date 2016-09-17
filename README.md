@@ -1,10 +1,34 @@
 # tdd_hands-on
 TDDハンズオンの資料
 
+## 環境
+
+以下の環境を用意してください。  
+* PHP 5.6 >=
+* PHPUnit 5.5
+
+https://phpunit.de/  
+PHPUnit 5.5を使用しますので、PHP5.6以上  
+
+PHP 5.6環境を用意できない方やWindowsの方はVagrantをお使いください。  
+https://www.vagrantup.com/downloads.html  
+```sh
+$ vagrant up
+```
+
 ## 環境構築
+
+Makefileを利用できる環境あれば、setupコマンドで環境を用意できます。  
 
 ```sh
 $ make setup
+```
+
+Vagrantの方は、以下の通り。  
+```sh
+$ vagrant ssh
+vagrant@debian:$ cd /vagrant/
+vagrant@debian:$ make setup
 ```
 
 ## テスト
