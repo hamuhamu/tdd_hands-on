@@ -4,8 +4,7 @@ TDDハンズオンの資料
 ## 環境
 
 以下の環境を用意してください。  
-* PHP 5.6 >=
-* PHPUnit 5.5
+* PHP 5.6以上
 
 https://phpunit.de/  
 PHPUnit 5.5を使用しますので、PHP5.6以上  
@@ -41,6 +40,10 @@ vagrant@debian:$ make setup
 ```sh
 $ make test
 ```
+
+テストを実行して以下の出力になれば準備完了です。  
+
+![実行結果](img.png)
 
 ## お題
 
