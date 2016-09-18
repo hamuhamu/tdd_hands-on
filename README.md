@@ -16,6 +16,11 @@ https://www.vagrantup.com/downloads.html
 $ vagrant up
 ```
 
+vagrant up時に失敗する場合は、VagrantやVirtualBoxのバージョンが古い可能性があります。
+
+Stderr: VBoxManage: error: Implementation of the USB 2.0 controller not found!
+参考リンク: http://qiita.com/secret_hamuhamu/items/cf447fccfbdd593a477f
+
 ## 環境構築
 
 Makefileを利用できる環境あれば、setupコマンドで環境を用意できます。  
