@@ -1,9 +1,6 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-# Vagrantのバージョンをひとまず1.8.5としておく
-Vagrant.require_version "= 1.8.5"
-
 VAGRANTFILE_API_VERSION = 2
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # https://docs.vagrantup.com
