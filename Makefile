@@ -1,6 +1,7 @@
 .PHONY: setup test
 
 setup:
+	sudo apt-get install -y curl
 	curl -sS https://getcomposer.org/installer | php
 	./composer.phar install
 
